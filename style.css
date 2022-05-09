@@ -56,14 +56,9 @@ h1, h2 {
     border-right: 1px solid lightgray;
  }
 
- a {
-     color: black;
-
- }
-
- a:hover {
-     font-size: 13px;
-
+ body > main > article > section > p > a {
+    color: black;
+    
  }
  .picname{
      display: grid;
@@ -110,14 +105,7 @@ ul{
     text-align: right;
     margin-top: 5px;
 }
-#language > a{
-    background-color: gray;
-    color: white;
-    padding: 4px;
-    margin-right: 2px;
-    text-decoration: none;
-    border-radius: 4px;
-}
+
 .funcao1, .funcao2, .funcao3{
     margin-left: 20px;
     margin-top: -10px;
@@ -135,7 +123,7 @@ ul{
     background-color: white;
     
 }
-.containerTS{
+#containerTS{
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -143,8 +131,14 @@ ul{
     
 }
 .techlogo{
-    max-height: 30px;
+    max-height: 40px;
 }
+
+.flags{
+    width: 40px;
+    margin-right: 5px;
+}
+
 /*.projetosfase{
     display: grid;
     grid-template-columns: 45% 45%;
