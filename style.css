@@ -32,13 +32,18 @@ section {
     margin: auto 1em 4em 2em;
 }
 
+
 i {
     margin-right: .5em;
+    font-size: 1.3em;
+    
 }
 
 p {
     margin: .2em auto;
+    margin-bottom: 10px;
     text-align: justify;
+    
 }
 
 hr {
@@ -183,5 +188,3 @@ article > h2{
     grid-row-start: 2;
     grid-row-end: 2;
 }*/
-
-
