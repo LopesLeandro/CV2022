@@ -41,7 +41,6 @@ i {
 
 p {
     margin: .2em auto;
-    margin-bottom: 10px;
     text-align: justify;
     
 }
@@ -154,6 +153,17 @@ ul{
 article > h2{
     margin-left: 20px;
 }
+
+span{
+    font-size: 1.1em;
+    margin-right: 22%;
+    text-align: left;
+}
+.rpg_definitions{
+    text-align: right;
+}
+
+
 /*.projetosfase{
     display: grid;
     grid-template-columns: 45% 45%;
